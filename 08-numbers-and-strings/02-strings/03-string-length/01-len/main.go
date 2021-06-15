@@ -11,7 +11,7 @@ package main
 import "fmt"
 
 func main() {
-	name := "carl"
+	name := "carlgoober"
 
 	// strings are made up of bytes
 	// len function counts the bytes in a string value

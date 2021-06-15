@@ -9,6 +9,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"strings"
 )
@@ -31,4 +32,5 @@ func main() {
 	// msg := strings.ToUpper(os.Args[1])
 	// marks := strings.Repeat("!", len(msg))
 	// fmt.Println(marks + msg + marks)
+	fmt.Println(s)
 }
