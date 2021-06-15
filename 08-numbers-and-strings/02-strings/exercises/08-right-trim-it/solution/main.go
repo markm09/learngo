@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	name := "inanç           "
+	name := "inanç          "
 
 	name = strings.TrimRight(name, " ")
 	l := utf8.RuneCountInString(name)
