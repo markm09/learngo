@@ -33,11 +33,12 @@ func main() {
 		return
 	}
 
-	arg := os.Args[1]
+	//arg := os.Args[1]
 
-	feet, _ := strconv.ParseFloat(arg, 64)
+	//feet, _ := strconv.ParseFloat(arg, 64)
+	feet, _ := strconv.ParseFloat(os.Args[1], 64)
 
 	meters := feet * 0.3048
 
-	fmt.Printf("%g feet is %g meters.\n", feet, meters)
+	fmt.Printf("%g feet is %.1f meters.\n", feet, meters)
 }
