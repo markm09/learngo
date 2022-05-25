@@ -35,7 +35,7 @@ package main
 //  go run main.go
 //   Tell me the magnitude of the earthquake in human terms.
 //
-//  go run main.go aliens
+//  go run main.go alien
 //   alien's richter scale is unknown
 //
 //  go run main.go micro
@@ -60,7 +60,7 @@ package main
 //   major's richter scale is 7 - 7.9
 //
 //  go run main.go great
-//   great's richter scale is 8 - 8.9
+//   great's richter scale is 8 - 9.9
 //
 //  go run main.go massive
 //   massive's richter scale is 10+
