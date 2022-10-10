@@ -27,6 +27,8 @@ func main() {
 		n := names[i]
 		fmt.Printf("%-15s %-15s %-15s\n", n[0], n[1], n[2])
 
+		fmt.Printf("%-15s\n", names[i])
+
 		if i == 0 {
 			fmt.Println(strings.Repeat("=", 50))
 		}

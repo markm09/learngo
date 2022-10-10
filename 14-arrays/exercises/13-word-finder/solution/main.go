@@ -28,6 +28,7 @@ func main() {
 	}
 
 	words := strings.Fields(corpus)
+	fmt.Println("words:", words)
 
 queries:
 	for _, q := range query {
@@ -44,6 +45,13 @@ queries:
 				fmt.Printf("#%-2d: %q\n", i+1, w)
 				break
 			}
+		}
+
+		// testing
+		i := 0
+		for range words {
+			fmt.Println("words print:", words[i])
+			i++
 		}
 	}
 }

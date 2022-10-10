@@ -16,4 +16,7 @@ func main() {
 
 	fmt.Printf("%q\n", names)
 	fmt.Printf("%q\n", books)
+
+	fmt.Println(names)
+	fmt.Println(books)
 }

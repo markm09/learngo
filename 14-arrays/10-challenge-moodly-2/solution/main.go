@@ -33,7 +33,9 @@ func main() {
 	n := rand.Intn(len(moods[0]))
 
 	var mi int
-	if mood != "positive" {
+	if mood == "positive" {
+		mi = 0
+	} else {
 		mi = 1
 	}
 	fmt.Printf("%s feels %s\n", name, moods[mi][n])

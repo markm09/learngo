@@ -98,6 +98,7 @@ FOR RANGES
 	for i, v := range data {
 		// try the %c verb
 		fmt.Printf("data[%d]: %d\n", i, v)
+		fmt.Printf("data[%d]: %c\n", i, v)
 	}
 
 	fmt.Print("\nratios", separator)

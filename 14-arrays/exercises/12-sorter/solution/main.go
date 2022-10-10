@@ -48,9 +48,12 @@ func main() {
 		  v > nums[i+1]
 	*/
 	for range nums {
+		fmt.Println("1", nums)
 		for i, v := range nums {
+			fmt.Println("2", nums)
 			if i < len(nums)-1 && v > nums[i+1] {
 				nums[i], nums[i+1] = nums[i+1], nums[i]
+
 			}
 		}
 	}

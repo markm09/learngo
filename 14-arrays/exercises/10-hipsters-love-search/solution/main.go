@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	books := [4]string{
+	books := [...]string{
 		"Kafka's Revenge",
 		"Stay Golden",
 		"Everythingship",

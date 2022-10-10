@@ -16,6 +16,14 @@ func main() {
 	// for keeping things easy to read and type-safe
 	type placeholder [5]string
 
+	subzero := [5]string{
+		" - ",
+		"█ █",
+		"█ █",
+		"█ █",
+		"███",
+	}
+
 	zero := placeholder{
 		"███",
 		"█ █",
@@ -107,7 +115,7 @@ func main() {
 	// + The underlying type of [5]string and placeholder is the same:
 	//     [5]string
 	digits := [...]placeholder{
-		zero, one, two, three, four, five, six, seven, eight, nine,
+		subzero, zero, one, two, three, four, five, six, seven, eight, nine,
 	}
 
 	// Explanation: digits[0]
