@@ -125,9 +125,15 @@ func main() {
 	//
 	// The range clause below is ~equal to the following code:
 	// line := 0; line < 5; line++
+
+	fmt.Println("digits[0] = ", digits[0])
+	fmt.Println("digits[1] = ", digits[1])
+	fmt.Println("digits[2] = ", digits[2])
+
 	for line := range digits[0] {
 		// Print a line for each placeholder in digits
 		for digit := range digits {
+			fmt.Println(digit, line)
 			fmt.Print(digits[digit][line], "  ")
 		}
 		fmt.Println()
